@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+  color: #29243a;
+  background: #f5f3ff;
+}
+
+header {
+  text-align: center;
+  color: white;
+  background: #5435a5;
+  padding: 30px 16px;
+}
+
+header h1 { margin-bottom: 4px; }
+
+nav { margin-top: 16px; }
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px 10px;
+}
+
+nav a:hover { color: #e5dcff; }
+
+section {
+  max-width: 850px;
+  margin: 24px auto;
+  padding: 28px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(55, 35, 100, 0.10);
+}
+
+h2 {
+  color: #5435a5;
+  margin-bottom: 12px;
+}
+
+h3 {
+  color: #6548ad;
+  margin: 10px 0 4px;
+}
+
+.about { text-align: center; }
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 14px;
+  border: 4px solid #e5dcff;
+  border-radius: 50%;
+  background: #eee8ff;
+  color: #5435a5;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-list li {
+  background: #eee8ff;
+  color: #5435a5;
+  padding: 7px 13px;
+  border-radius: 8px;
+}
+
+article + article { margin-top: 16px; }
+
+footer {
+  text-align: center;
+  color: white;
+  background: #5435a5;
+  padding: 16px;
+}
+
+@media (max-width: 600px) {
+  section { margin: 16px 12px; padding: 22px; }
+}
